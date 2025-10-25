@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GerminAção - Sua Horta Urbana</title>
+    <title>Nossa Horta - Sua Horta Doméstica</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel = "stylesheet" href = "./css/style.css">
@@ -22,7 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class=" navbar collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.php">Home</a>
@@ -55,7 +55,7 @@
           <div class="search-card col-lg-6">
 
             <h1 class="display-5 text-white fw-bold lh-1 mb-4">SUA HORTA DOMÉSTICA COMEÇA AQUI.</h1>
-            <p class="fw-bold lead">Aprenda a plantar, cultivar e colher seus próprios alimentos orgânicos, mesmo com pouco espaço. Encontre guias fáceis, dicas da comunidade e ajuda profissional.</p>
+            <p class="texto fw-bold lead">Aprenda a plantar, cultivar e colher seus próprios alimentos orgânicos, mesmo com pouco espaço. Encontre guias fáceis, dicas da comunidade e ajuda profissional.</p>
             
             <form class="d-flex mt-4" role="search">
               <input class="form-control form-control-lg me-2" type="search" placeholder="O que você quer plantar hoje? (ex: Tomate)" aria-label="Search">
@@ -88,7 +88,7 @@
 
             <div class="col">
               <div class="card shadow-sm h-100">
-                <img src="https://images.unsplash.com/photo-1597362925123-01c04d0f50b4?w=300&h=200&fit=crop" class="card-img-top" alt="Tomates">
+                <img src="./images/tomatecereja.jpg" class="card-img-top h-60" alt="Tomates">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">Como Plantar Tomate Cereja</h5>
                   <p class="card-text">O guia definitivo para ter tomates docinhos e suculentos plantados em vasos.</p>

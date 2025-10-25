@@ -3,15 +3,18 @@ body{
     /* z-index: 1; */
 }
 .container-main{
-background-image:  url("../images/hortaInicial.jpg");
-/* opacity: 0.9; */
-/* background-repeat: no-repeat; */
+    background-image: url("../images/hortaInicial.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    width: 100%;
+  
 }
 h1{
     color: rgba(255, 255, 255, 0.918);
     text-shadow: 7px 7px 25px black;
 }
-p{
+.texto{
     
     color: rgba(255, 255, 255, 0.918);
     text-shadow: 7px 7px 15px black;
