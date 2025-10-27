@@ -3,19 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nossa Horta - Sua Horta Doméstica</title>
+    <title>NossaHorta - Sua Horta Doméstica</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel = "stylesheet" href = "./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom shadow-sm">
       <div class="container">
         
         <a class="navbar-brand fw-bold text-success" href="index.html">
-          <i class="bi bi-tree-fill"></i> Nossa Horta
+          <i class="bi bi-tree-fill"></i> NossaHorta
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,17 +27,17 @@
               <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="guias.php">Guias de Plantio</a>
+              <a class="nav-link" href="./pages/GuiaPlantioPage/GuiaPlantioPage.php">Guias de Plantio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="comunidade.php">Comunidade</a>
+              <a class="nav-link" href="./pages/ComunidadePage/ComunidadePage.php">Comunidade</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="especialistas.php">Encontrar Especialistas</a>
+              <a class="nav-link" href="./pages/EspecialistasPage/EspecialistasPage.php">Encontrar Especialistas</a>
             </li>
           </ul>
 
-          <a href="cadastro.php" class="btn btn-success">
+          <a href="./pages/CadastroPage/CadastroPage.php" class="btn btn-success">
             <i class="bi bi-person-fill-add"></i>
             Cadastre-se
           </a>
@@ -54,7 +53,7 @@
           </div>
           <div class="search-card col-lg-6">
 
-            <h1 class="display-5 text-white fw-bold lh-1 mb-4">SUA HORTA DOMÉSTICA COMEÇA AQUI.</h1>
+            <h1 class="titulo-horta display-5 text-white fw-bold lh-1 mb-4">SUA HORTA DOMÉSTICA COMEÇA AQUI.</h1>
             <p class="texto fw-bold lead">Aprenda a plantar, cultivar e colher seus próprios alimentos orgânicos, mesmo com pouco espaço. Encontre guias fáceis, dicas da comunidade e ajuda profissional.</p>
             
             <form class="d-flex mt-4" role="search">
@@ -96,7 +95,23 @@
                 </div>
               </div>
             </div>
-
+            
             <div class="col">
               <div class="card shadow-sm h-100">
-                <img src="
+                <img src="./images/tomatecereja.jpg" class="card-img-top h-60" alt="Tomates">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Como Plantar Tomate Cereja</h5>
+                  <p class="card-text">O guia definitivo para ter tomates docinhos e suculentos plantados em vasos.</p>
+                  <a href="guia.php?id=2" class="btn btn-sm btn-outline-success mt-auto">Ver Guia Completo</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fazer manualmente essa parte depois -> Criar menu para mobile pra ficar mais bonito -->
+          <!-- <script>
+            document.getElementById('menuBtn').onclick = function() {
+            document.getElementById('menu').classList.toggle('show');
+            };
+          </script> -->
+          <!-- Menu mobile provisório, a não ser que bata a preguiça -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
